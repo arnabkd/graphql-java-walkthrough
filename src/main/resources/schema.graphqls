@@ -1,11 +1,20 @@
 type Person {
-  name: String!
+  # The firstname of a person
+  firstName: String!
+
+  # TODO: add description of lastname here
+  lastName: String!
+
+  # TODO: add description of age here
   age: Int
 }
 
 
 type Query {
+
+  # TODO: add description of all people here
   allPeople: [Person]
+
 }
 
 schema {

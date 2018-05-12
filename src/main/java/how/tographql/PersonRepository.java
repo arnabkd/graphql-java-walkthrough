@@ -8,10 +8,10 @@ public class PersonRepository {
 
     public PersonRepository(){
         people = new ArrayList<Person>();
-        people.add(new Person("Tom", 34));
-        people.add(new Person("Jerry", 30));
-        people.add(new Person("James", 29));
-        people.add(new Person("Fred", 40));
+        people.add(new Person("Tom", "Cat",34));
+        people.add(new Person("Jerry", "Mouse",30));
+        people.add(new Person("James", "Jameson", 29));
+        people.add(new Person("Fred", "Fredson", 40));
     }
 
     public List<Person> getAll() {
