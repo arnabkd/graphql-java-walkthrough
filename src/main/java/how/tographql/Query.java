@@ -11,6 +11,6 @@ public class Query implements GraphQLRootResolver {
     }
 
     public List<Person> allPeople () {
-        return null; //TODO: return all people
+        return personRepository.getAll();
     }
 }
