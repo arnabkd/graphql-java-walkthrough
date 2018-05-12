@@ -1,18 +1,19 @@
+# Base Person type
 type Person {
   # The firstname of a person
   firstName: String!
 
-  # TODO: add description of lastname here
+  # The lastname (also known as surname) of a person
   lastName: String!
 
-  # TODO: add description of age here
+  # The age of a person
   age: Int
 }
 
 
 type Query {
 
-  # TODO: add description of all people here
+  # A list of all people in the people repository
   allPeople: [Person]
 
 }
